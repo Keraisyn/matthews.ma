@@ -11,6 +11,10 @@ p {
     font-weight: 400;
 }
 
+a {
+    color:black;
+}
+
 .big-title {
     font-size: 3.5rem;
 }
