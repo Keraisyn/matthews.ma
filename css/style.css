@@ -25,6 +25,11 @@ a {
     }
 }
 
+.scroll-down {
+    margin-top: 300px;
+    margin-left: 15px
+}
+
 .landing {
     height: 100vh;
 }
