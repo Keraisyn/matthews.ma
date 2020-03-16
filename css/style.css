@@ -27,7 +27,9 @@ a {
 
 .scroll-down {
     /*margin-top: 10rem;*/
-    padding-left: 12px
+    padding-left: 12px;
+    position:absolute;
+    bottom:10vh
 }
 
 .landing {
