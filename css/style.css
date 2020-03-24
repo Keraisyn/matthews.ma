@@ -53,6 +53,11 @@ a {
     margin-bottom: 100px;
 }
 
+/* Animation delays */
+.delay-200ms {
+    animation-delay:0.2s;
+}
+
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
