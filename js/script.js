@@ -44,3 +44,27 @@ $("#footer-text").css("opacity", 0);
 $("#footer-text").waypoint(function() {
     $("#footer-text").addClass("fadeInUp");
 }, {offset:"80%"});
+
+new TypeIt("#name-text", {
+    speed:100,
+    startDelay:50,
+    lifeLike:true,
+    loop:true
+})
+    .type("Matthews Ma")
+    .pause(2000)
+    .delete(11)
+    .pause(500)
+    .type("A Developer")
+    .pause(2000)
+    .delete(12)
+    .pause(500)
+    .type("A Musician")
+    .pause(2000)
+    .delete(10)
+    .pause(500)
+    .type("A Photographer")
+    .pause(2000)
+    .delete(14)
+    .pause(500)
+    .go();
