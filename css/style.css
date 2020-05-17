@@ -62,6 +62,9 @@ a {
     animation-delay:0.4s;
 }
 
+.delay-600ms {
+    animation-delay:0.6s;
+}
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
