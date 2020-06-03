@@ -36,10 +36,24 @@
     <!--<a href="#" class="youtube"><i class="fa fa-youtube"></i></a>-->
 <!--</div>-->
 
-<!--<div class="left-navbar">-->
+<!-- Fullscreen Navbar -->
+<div id="full-nav" class="overlay">
+    <!-- Close navbar -->
+    <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">&times;</a>
 
-<!--</div>-->
+    <!-- Navbar content -->
+    <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+</div>
 
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()">open</span>
+
+<!-- Main site -->
 <div class="container">
     <!-- Main section -->
     <section class="landing">

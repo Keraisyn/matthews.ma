@@ -50,3 +50,12 @@ new TypeIt("#name-text", {
     .delete(14)
     .pause(500)
     .go();
+
+/* Open and close navbar */
+function openNav() {
+    document.getElementById("full-nav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("full-nav").style.width = "0%";
+}
