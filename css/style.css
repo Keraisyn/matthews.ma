@@ -1,7 +1,9 @@
+/* Title fonts */
 h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Paragraph fonts */
 p, span {
     font-family: 'Cardo', sans-serif;
 }
@@ -26,7 +28,6 @@ a {
 }
 
 .scroll-down {
-    /*margin-top: 10rem;*/
     padding-left: 12px;
     position:absolute;
     bottom:10vh
@@ -66,7 +67,7 @@ a {
     animation-delay:0.6s;
 }
 
-/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+/* Fixed/sticky icon bar */
 .icon-bar {
     position: absolute;
     display:none;
