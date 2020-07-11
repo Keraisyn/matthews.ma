@@ -27,14 +27,6 @@ a {
     }
 }
 
-.hamburger {
-    position: fixed;
-    z-index: 99;
-    top: 50%;
-    left: 20px;
-    font-size:20px;
-}
-
 .scroll-down {
     padding-left: 12px;
     position:absolute;
@@ -73,6 +65,20 @@ a {
 
 .delay-600ms {
     animation-delay:0.6s;
+}
+
+.hamburger {
+    position: fixed;
+    z-index: 99;
+    top: 50%;
+    left: 20px;
+    font-size:20px;
+    transition: 0.5s;
+}
+
+.hamburger.hidden {
+    transform: translate(-200px, 0px);
+    transition: transform 0.5s;
 }
 
 /* The Overlay (background) */
@@ -116,10 +122,10 @@ a {
 
 /* Position the close button (top right corner) */
 .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    font-size: 50px;
 }
 
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */

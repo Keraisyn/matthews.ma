@@ -1,3 +1,8 @@
+/* Menu button */
+$(".hamburger").click(function() {
+    $(".hamburger").toggleClass("hidden");
+});
+
 /* Animation waypoints */
 
 $("#title-text").css("opacity", 0);
