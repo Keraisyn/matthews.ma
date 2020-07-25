@@ -8,6 +8,14 @@ p, span {
     font-family: 'Cardo', sans-serif;
 }
 
+.serif {
+    font-family: 'Cardo', sans-serif;
+}
+
+.sans-serif {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .normal-text {
     font-size: 1.5rem;
     font-weight: 400;
