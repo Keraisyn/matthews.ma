@@ -41,11 +41,14 @@ new TypeIt("#name-text", {
 
 /* Open and close navbar */
 function openNav() {
-    document.getElementById("full-nav").style.width = "100%";
+    // document.getElementById("full-nav").style.display = "block";
+    document.getElementById("full-nav").style.opacity = "1";
+    document.getElementById("full-nav").style.pointerEvents = "auto";
 }
 
 function closeNav() {
-    document.getElementById("full-nav").style.width = "0%";
+    document.getElementById("full-nav").style.opacity = "0";
+    document.getElementById("full-nav").style.pointerEvents = "none";
 }
 
 /* Animation waypoints */
