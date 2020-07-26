@@ -12,6 +12,9 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="css/animate.min.css">
 
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -67,30 +70,30 @@
     <section class="landing">
         <h1 class="navbar-brand mt-4">matthews.ma</h1>
         <div class="row landing-row">
-            <div id="title-text" class="col animated">
+            <div id="title-text" class="col reveal">
                 <h1 class="display-4 text-muted">Hi! I'm</h1>
                 <h1 id="name-text" class="display-3 big-title"></h1>
             </div>
         </div>
-        <p class="h4 text mt-5 pt-5 scroll-down animated fadeInUp delay-1s">scroll down</p>
+        <p class="h4 text mt-5 pt-5 scroll-down reveal delay-1000ms">scroll down</p>
     </section>
 
     <!-- About me -->
     <section class="about">
         <div class="row">
-            <div id="about-text" class="col animated about-text">
+            <div id="about-text" class="col reveal about-text">
                 <h1 class="display-4">
                     <strong>A bit about me</strong>
                 </h1>
             </div>
         </div>
         <div class="row my-5">
-            <div class="col-md-6 animated about-text">
+            <div class="col-md-6 reveal about-text">
                 <p class="normal-text">Most of the time, you'll find me making software and hardware projects.
                     I mainly work with Python, Java, and the web languages (HTML, CSS, JS) but I love learning
                     new things to finish my projects. I also enjoy taking photographs and making music.</p>
             </div>
-            <div class="col-md-6 animated about-text delay-200ms">
+            <div class="col-md-6 reveal about-text">
                 <p class="normal-text">I'm currently 16 years old and I attend Sir John A. Macdonald S.S. in Waterloo,
                     Ontario. I am pursuing a career in Computer Science and I hope to invent something cool and start a
                     company in the future.</p>
@@ -101,7 +104,7 @@
     <!-- Projects -->
     <section class="projects">
         <div class="row my-5 py-5">
-            <div id="projects-text" class="col animated projects-text">
+            <div id="projects-text" class="col reveal projects-text">
                 <h1 class="display-4">
                     Some of my projects
                 </h1>
@@ -109,14 +112,14 @@
         </div>
 
         <div class="row">
-            <div class="col-12 col-md-6 text-center my-3 animated projects-text">
+            <div class="col-12 col-md-6 text-center my-3 reveal projects-text">
                 <a href="http://beyondqwerty.com/">
                     <img src="images/beyondqwerty.png" alt="BeyondQWERTY Website" class="project-image">
                 </a>
                 <h1 class="mt-4 h3">Beyond QWERTY</h1>
                 <p class="normal-text">A web app that allows you to try out different keyboard layouts in the safety of your browser</p>
             </div>
-            <div class="col-12 col-md-6 text-center my-3 animated projects-text delay-200ms">
+            <div class="col-12 col-md-6 text-center my-3 reveal projects-text">
                 <a href="https://chrome.google.com/webstore/detail/kinetic/cgappbkmoappklnbnjkocbmgpnfdcodp">
                     <img src="images/kinetic.PNG" alt="Kinetic New Tab Chrome Extension" class="project-image">
                 </a>
@@ -126,14 +129,14 @@
         </div>
 
         <div class="row">
-            <div class="col-12 col-md-6 text-center my-3 animated projects-text delay-400ms">
+            <div class="col-12 col-md-6 text-center my-3 reveal projects-text">
                 <a href="https://github.com/Keraisyn/Balls-and-Walls">
                     <img src="images/ballsandwalls.png" alt="Balls and Walls - Made in Python Tkinter" class="project-image">
                 </a>
                 <h1 class="mt-4 h3">Balls and Walls</h1>
                 <p class="normal-text">A fun physics game made with Tkinter where you draw in walls to bounce walls into a crate</p>
             </div>
-            <div class="col-12 col-md-6 text-center my-3 animated projects-text delay-600ms">
+            <div class="col-12 col-md-6 text-center my-3 reveal projects-text">
                 <a href="https://github.com/Keraisyn/sms-edu">
                     <img src="images/smsedu.jpg" alt="SMS.edu" class="project-image">
                 </a>
@@ -143,16 +146,33 @@
         </div>
 
         <div class="row">
-            <div class="col">
+            <div class="col reveal">
                 <p class="normal-text">More on Github <a href="https://github.com/Keraisyn">@Keraisyn</a></p>
             </div>
         </div>
     </section>
 
-    <!-- Awards -->
-    <section class="projects">
+    <section class="photos">
         <div class="row py-5">
-            <div id="" class="col">
+            <div id="a" class="col reveal">
+                <h1 class="display-4">
+                    Gallery
+                </h1>
+            </div>
+
+            <div class="col">
+
+            </div>
+        </div>
+
+        <div class="row">
+        </div>
+    </section>
+
+    <!-- Awards -->
+    <section class="awards">
+        <div class="row py-5">
+            <div id="" class="col reveal">
                 <h1 class="display-4">
                     Achievements
                 </h1>
@@ -160,7 +180,7 @@
         </div>
 
         <div class="row">
-            <table class="table serif normal-text">
+            <table class="table serif normal-text reveal">
                 <tbody>
                 <tr>
                     <th scope="row">2020</th>
@@ -244,7 +264,7 @@
 
     <!-- Footer -->
     <section class="footer">
-        <h1 id="footer-text" class="display-4 pb-4 animated">That's it!<br /> Thanks for visiting!</h1>
+        <h1 id="footer-text" class="display-4 pb-4 reveal">That's it!<br /> Thanks for visiting!</h1>
         <div class="row pt-5">
             <p class="h4 col-md-5"><strong>Check out my</strong></p>
             <div class="h4 col-12 col-md-7 text-md-right">

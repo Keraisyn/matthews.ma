@@ -75,6 +75,8 @@ a {
     animation-delay:0.6s;
 }
 
+/* Hamburger */
+
 .hamburger {
     position: fixed;
     z-index: 99;

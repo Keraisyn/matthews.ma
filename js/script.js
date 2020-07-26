@@ -3,33 +3,16 @@ $(".hamburger").click(function() {
     $(".hamburger").toggleClass("hidden");
 });
 
-/* Animation waypoints */
+/* ScrollReveal */
+ScrollReveal().reveal(".reveal", {
+    interval:200,
+    distance:"20px",
+});
 
-$("#title-text").css("opacity", 0);
-
-$("#title-text").waypoint(function() {
-    $("#title-text").addClass("fadeIn");
-}, {offset:"50%"});
-
-$(".about-text").css("opacity", 0);
-
-$("#about-text").waypoint(function() {
-    $(".about-text").addClass("fadeInUp");
-}, {offset:"80%"});
-
-
-$(".projects-text").css("opacity", 0);
-
-$("#projects-text").waypoint(function() {
-    $(".projects-text").addClass("fadeInUp");
-}, {offset:"80%"});
-
-
-$("#footer-text").css("opacity", 0);
-
-$("#footer-text").waypoint(function() {
-    $("#footer-text").addClass("fadeInUp");
-}, {offset:"80%"});
+ScrollReveal().reveal(".delay-1000ms", {
+    distance:"20px",
+    delay:1000,
+});
 
 /* Animated typing config */
 new TypeIt("#name-text", {
@@ -64,3 +47,31 @@ function openNav() {
 function closeNav() {
     document.getElementById("full-nav").style.width = "0%";
 }
+
+/* Animation waypoints */
+
+// $("#title-text").css("opacity", 0);
+//
+// $("#title-text").waypoint(function() {
+//     $("#title-text").addClass("fadeIn");
+// }, {offset:"50%"});
+//
+// $(".about-text").css("opacity", 0);
+//
+// $("#about-text").waypoint(function() {
+//     $(".about-text").addClass("fadeInUp");
+// }, {offset:"80%"});
+//
+//
+// $(".projects-text").css("opacity", 0);
+//
+// $("#projects-text").waypoint(function() {
+//     $(".projects-text").addClass("fadeInUp");
+// }, {offset:"80%"});
+//
+//
+// $("#footer-text").css("opacity", 0);
+//
+// $("#footer-text").waypoint(function() {
+//     $("#footer-text").addClass("fadeInUp");
+// }, {offset:"80%"});
