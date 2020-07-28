@@ -57,6 +57,13 @@ a {
     margin-top: 25vh;
 }
 
+.gallery {
+    justify-content: space-between;
+}
+
+.gallery-image {
+}
+
 .footer {
     margin-top: 20vh;
     margin-bottom: 100px;
